@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_searchResultsRecordset" value="name:word_id;datatype:int,name:word;datatype:string,name:definition;datatype:blob,name:is_featured;datatype:int" />
+</info>
