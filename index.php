@@ -34,6 +34,7 @@ $totalPages_featuredWordsRecordset = ceil($totalRows_featuredWordsRecordset/$max
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="inmobi-site-verification" content="408153f6f5f4078008f727e14f568edd" />
 <title>Urban Dictionary</title>
 </head>
 
