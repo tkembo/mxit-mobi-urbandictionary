@@ -19,17 +19,16 @@
 <body>
 <h1>Urban's Dictionary</h1>
 <p>
-	Applicaition developed by: <strong>Tawanda Kembo</strong>
+	Application developed by: <strong>Tawanda Kembo</strong>
 </p>
 <p>
-	Feel to to email suggestions/feedback/comments/complaints to <strong>tkembo@gmail.com</strong>
+	Feel to to email suggestions/feedback/comments/complaints to <strong><a href="mailto:tkembo@gmail.com">tkembo@gmail.com</a></strong>
 </p>
 <p>
 Other Mxit Applications by Tawanda Kembo
 <ul>
-	<li>Murphy's Laws (<strong>muphyslaws</strong>)</li>
-    <li>ZiFM Stereo (<strong>zifm</strong>)</li>
-    <li>Devil's Dictionary (<strong>devilsdictionary</strong>)</li>
+	<li>Murphy's Laws (<strong>murphyslaws</strong>)</li>
+    <li>Urban Dictionary (<strong>urbandictionary</strong>)</li>
 </ul>
 </p>
  <b><a href="clear_screen.html">a</a>) </b><a href="clear_screen.html">Clear screen</a><br/>            

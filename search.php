@@ -20,12 +20,12 @@ $colname_searchResultsRecordset = "-1";
 if (isset($_GET['searchTextBox'])) {
   $colname_searchResultsRecordset = $_GET['searchTextBox'];
 }
-mysql_select_db($database_mxit_devilsdictionary, $mxit_devilsdictionary);
+mysql_select_db($database_mxit_urbandictionary, $mxit_urbandictionary);
 $query_searchResultsRecordset = sprintf("SELECT * FROM word WHERE word LIKE '%s%s' AND approved = 1 ORDER BY word ASC", 
 GetSQLValueString($colname_searchResultsRecordset, "text"),
 GetSQLValueString('%', "text"));
 $query_limit_searchResultsRecordset = sprintf("%s LIMIT %d, %d", $query_searchResultsRecordset, $startRow_searchResultsRecordset, $maxRows_searchResultsRecordset);
-$searchResultsRecordset = mysql_query($query_limit_searchResultsRecordset, $mxit_devilsdictionary) or die(mysql_error());
+$searchResultsRecordset = mysql_query($query_limit_searchResultsRecordset, $mxit_urbandictionary) or die(mysql_error());
 $row_searchResultsRecordset = mysql_fetch_assoc($searchResultsRecordset);
 
 if (isset($_GET['totalRows_searchResultsRecordset'])) {
@@ -40,7 +40,7 @@ $totalPages_searchResultsRecordset = ceil($totalRows_searchResultsRecordset/$max
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Devil's Dictionary - Search Resultss</title>
+<title>Urban Dictionary - Search Results</title>
 </head>
 
 <body>

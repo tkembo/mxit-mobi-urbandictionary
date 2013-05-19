@@ -20,11 +20,11 @@ $colname_wordsRecordset = "-1";
 if (isset($_GET['letter'])) {
   $colname_wordsRecordset = $_GET['letter'];
 }
-mysql_select_db($database_mxit_devilsdictionary, $mxit_devilsdictionary);
+mysql_select_db($database_mxit_urbandictionary, $mxit_urbandictionary);
 $query_wordsRecordset = sprintf("SELECT word, definition FROM word WHERE word LIKE '%s%s' AND approved = 1 ORDER BY word ASC", GetSQLValueString($colname_wordsRecordset, "text"),
 GetSQLValueString("%", "text"));
 $query_limit_wordsRecordset = sprintf("%s LIMIT %d, %d", $query_wordsRecordset, $startRow_wordsRecordset, $maxRows_wordsRecordset);
-$wordsRecordset = mysql_query($query_limit_wordsRecordset, $mxit_devilsdictionary) or die(mysql_error());
+$wordsRecordset = mysql_query($query_limit_wordsRecordset, $mxit_urbandictionary) or die(mysql_error());
 $row_wordsRecordset = mysql_fetch_assoc($wordsRecordset);
 
 if (isset($_GET['totalRows_wordsRecordset'])) {
@@ -39,7 +39,7 @@ $totalPages_wordsRecordset = ceil($totalRows_wordsRecordset/$maxRows_wordsRecord
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Devil's Dictionary | Browse By Letter</title>
+<title>Urban Dictionary | Browse By Letter</title>
 </head>
 
 <body>

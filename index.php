@@ -16,10 +16,10 @@ if (isset($_GET['pageNum_featuredWordsRecordset'])) {
 }
 $startRow_featuredWordsRecordset = $pageNum_featuredWordsRecordset * $maxRows_featuredWordsRecordset;
 
-mysql_select_db($database_mxit_devilsdictionary, $mxit_devilsdictionary);
+mysql_select_db($database_mxit_urbandictionary, $mxit_urbandictionary);
 $query_featuredWordsRecordset = "SELECT * FROM word WHERE is_featured = 1 AND approved = 1 ORDER BY RAND()";
 $query_limit_featuredWordsRecordset = sprintf("%s LIMIT %d, %d", $query_featuredWordsRecordset, $startRow_featuredWordsRecordset, $maxRows_featuredWordsRecordset);
-$featuredWordsRecordset = mysql_query($query_limit_featuredWordsRecordset, $mxit_devilsdictionary) or die(mysql_error());
+$featuredWordsRecordset = mysql_query($query_limit_featuredWordsRecordset, $mxit_urbandictionary) or die(mysql_error());
 $row_featuredWordsRecordset = mysql_fetch_assoc($featuredWordsRecordset);
 
 if (isset($_GET['totalRows_featuredWordsRecordset'])) {
