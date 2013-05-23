@@ -17,10 +17,10 @@
 	$username_mxit_urbandictionary = "root";
 	$password_mxit_urbandictionarys = "";
 	*/
-	$hostname_mxit_urbandictionary = "us-cdbr-azure-west-b.cleardb.com";
-	$database_mxit_urbandictionary = "mxiturbandictionary";
-	$username_mxit_urbandictionary = "bcb8a82d9a9ece";
-	$password_mxit_urbandictionarys = "e3771f06";
+	$hostname_mxit_urbandictionary = getenv('DB_HOST');
+	$database_mxit_urbandictionary = getenv('DB_NAME');
+	$username_mxit_urbandictionary = getenv('DB_USER');
+	$password_mxit_urbandictionarys = getenv('DB_PASS');
 	
 	$mxit_urbandictionary = mysql_pconnect($hostname_mxit_urbandictionary, $username_mxit_urbandictionary, $password_mxit_urbandictionarys) or trigger_error(mysql_error(),E_USER_ERROR); 
 	
