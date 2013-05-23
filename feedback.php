@@ -17,19 +17,17 @@
 </head>
 
 <body>
-<h1>Urban's Dictionary</h1>
-<p>
-	Application developed by: <strong>Tawanda Kembo</strong>
-</p>
-<p>
-	Feel to to email suggestions/feedback/comments/complaints to <strong><a href="mailto:tkembo@gmail.com">tkembo@gmail.com</a></strong>
-</p>
-<p>
-Other Mxit Applications by Tawanda Kembo
+<h1>Urban Dictionary</h1>
+<p>My name is <strong>Tawanda Kembo</strong> &amp; I am glad you have seen value in this app. </p>
+<p>If you have any suggestions on how I can improve this app to give you a better experience when you use it, the fastest way to reach me is via email. My email address is <strong>tkembo@gmail.com</strong>.</p>
+<p> Also, I have made this application opensource so if you are developer feel free to fork it on GitHub, contribute or to help me with refactoring the code. The GitHub repository for this application (and others I have worked on) is at <strong>https://github.com/tkembo?tab=repositories</strong>.</p>
+<p>If you like this application, then you will probably like other applications I have developed and these are:</p>
 <ul>
 	<li>Murphy's Laws (<strong>murphyslaws</strong>)</li>
-    <li>Urban Dictionary (<strong>urbandictionary</strong>)</li>
+    
+    <li>Devil's Dictionary (<strong>devilsdictionary</strong>)</li>
 </ul>
+<p>You can find out more about me on: <strong>http://about.me/tawandakembo</strong></p>
 </p>
  <b><a href="clear_screen.html">a</a>) </b><a href="clear_screen.html">Clear screen</a><br/>            
 			<b><a href="index.php">b</a>) </b><a href="index.php">Go to Home Screen </a>
