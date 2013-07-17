@@ -72,12 +72,30 @@ You can type in the word (or the first few letters of the word) you wish to sear
 <input name="searchTextBox" type="text" />
 <input name="submitButton" type="submit"  />
 </form>
-       
-       
+<br />
+ <?php
+			 /*
+			 * Create shinka banner ad object.
+			 * Can be done at top of page, and re-used to display multiple banners on page.
+			 */
+			$ShinkaBannerAd = new ShinkaBannerAd($config);	
+		
+			/*
+			 * Do a server ad request to populate the BannerAd object with a new banner.
+			 * This can be done multiple times with the same ShinkaBannerAd object to get new banners for the same user
+			 */	  
+		
+			/**
+			 * Get a text banner for this user, and display it
+			 */
+			$ShinkaBannerAd->doServerAdRequest('image');
+			print $ShinkaBannerAd->generateHTMLFromAd();
+		?>  
+
        <br>
-        <p><strong><a href="feedback.php">f1</a>) <a href="feedback.php">Feedback/Help/About/More Info</a></strong>
+        <p><strong><a href="feedback.php">f1</a>) <a href="feedback.php">About this app</a></strong>
             <br />
-            <strong><a href="feedback.php">f2</a>) <a href="submit_word.php">Submit your own word</a>
+            <strong><a href="submit_word.php">f2</a>) <a href="submit_word.php">Submit your own word</a>
             </p>     	
 </body>
 </html>

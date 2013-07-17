@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,12 +6,12 @@
 </head>
 
 <body>
-<strong> Enter your word here </strong>
-<p>You will be asked to submit the definition in the next step </p>
-<form id="form1" name="form1" method="get" action="submit_definition.php">
-  <input type="text" name="word" id="word" />
-  <input type="submit" name="button" id="button" value="Submit" />
-</form>
+<strong> I'm now charging 10 moola to submit a word </strong>
+<p>Because I have been receiving a high volume of SPAM, I am now charging 10 Moola to submit a word. I hope this will curb SPAM. Clicking the link or selecting the option below will charge you 10 Moola to submit a word</p>
+ <br />
+            <strong><a href="submit_word_start.php">1</a>) <a href="submit_word_start.php">Submit your own word</a>
+            </p> 
+
   	
 </body>
 </html>
