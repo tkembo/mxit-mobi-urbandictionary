@@ -15,7 +15,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>About this app</title>
+<title>About this Urban Dictionary</title>
 </head>
 
 <body>
@@ -33,14 +33,17 @@ $user_details = getUserDetails();
 		}
 ?>
 My name is <strong>Tawanda Kembo</strong> &amp; I am glad you're using this app. </p>
-<p>If you have any suggestions on how I can improve this app to give you a better experience when you use it, the fastest way to reach me is via email. My email address is <a href="mailto:tkembo@gmail.com" onclick="window.open(this.href); return false;">tawanda@ipaidabribe.org.zw</a>.</p>
+<p>If you have any suggestions on how I can improve this app to give you a better experience when you use it, the fastest way to reach me is via email. My email address is <a href="mailto:tkembo@gmail.com" onclick="window.open(this.href); return false;">tawanda@gmail.com</a>.</p>
 <p> Also, I have made this application opensource so feel free to fork it on <a href="https://github.com/tkembo?tab=repositories" onclick="window.open(this.href); return false;">GitHub</a>.</p>
 <p>If you like this application, then you will probably like other applications I have developed and these are:</p>
 <ul>
-	<li>Murphy's Laws (<strong>murphyslaws</strong>)</li>
-    
-    <li>Devil's Dictionary (<strong>devilsdictionary</strong>)</li>
+	<li><a href="mxit://[mxit_recommend:Refresh]/Referral?from=urbandictionary&to=murphyslaws" type="mxit/service-navigation">murphyslaws</a></li>
+	<li><a href="mxit://[mxit_recommend:Refresh]/Referral?from=urbandictionary&to=devilsdictionary" type="mxit/service-navigation">devilsdictionary</a></li>
 </ul>
+<p>
+<br>
+ You should also <a href="mxit://[mxit_recommend]/Recommend?service_name=urbandictionary" type="mxit/service-navigation">Invite your friends to check this app out</a>
+</p>
 <p>You can read more about me on: <a href="http://about.me/tawandakembo" onclick="window.open(this.href); return false;">http://about.me/tawandakembo</a></p>
 </p>
  <b><a href="clear_screen.html">a</a>) </b><a href="clear_screen.html">Clear screen</a><br/>            

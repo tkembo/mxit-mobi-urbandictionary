@@ -41,7 +41,9 @@
 		}
 	?>
 </h1>
-<p>I really apreciate you taking your time out to submit new words. Just give me a  few hours to review the definition you have submited. I just want to make sure your definition isn't something that will offend other users</p>
+<p>I really appreciate you taking your time out to submit new words. Just give me a  few hours to review the definition you have submitted. I just want to make sure your definition isn't something that will offend other users</p>
+<p>Could you also <br>
+			<a href="mxit://[mxit_recommend]/Recommend?service_name=urbandictionary" type="mxit/service-navigation">invite your friends to check this app out</a></p>
 <b><a href="index.php">b</a>) </b><a href="index.php">Back to home screen</a><br/>
 
 <b>Search for another word</b> by typing it (or the first few letters) here<br/>
