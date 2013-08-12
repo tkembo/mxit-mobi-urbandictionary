@@ -124,6 +124,8 @@ You can type in the word (or the first few letters of the word) you wish to sear
         	<strong><a href="feedback.php">f1</a>) <a href="feedback.php">About this app</a></strong>
             <br />
             <strong><a href="submit_word.php">f2</a>) <a href="submit_word.php">Submit your own word</a>
+			<br>
+			<a href="mxit://[mxit_recommend]/Recommend?service_name=urbandictionary" type="mxit/service-navigation">Invite you friends to use this app</a>
             </p>     	
 </body>
 </html>
