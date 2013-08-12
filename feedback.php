@@ -41,6 +41,9 @@ My name is <strong>Tawanda Kembo</strong> &amp; I am glad you're using this app.
 	<li><a href="mxit://[mxit_recommend:Refresh]/Referral?from=urbandictionary&to=devilsdictionary" type="mxit/service-navigation">devilsdictionary</a></li>
 </ul>
 <p>
+	Just click on the link above to add the app
+</p>
+<p>
 <br>
  You should also <a href="mxit://[mxit_recommend]/Recommend?service_name=urbandictionary" type="mxit/service-navigation">Invite your friends to check this app out</a>
 </p>
