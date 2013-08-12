@@ -9,7 +9,6 @@
 <strong> I'm now charging 20 moola to submit a word </strong>
 <p>Because I have been receiving a high volume of SPAM, I am now charging 20 Moola to submit a word. I hope this will curb SPAM. Clicking the link or selecting the option below will charge you 20 Moola to submit a word</p>
  <br />
-<strong><a href="submit_word_start.php">1</a>) <a href="submit_word_start.php">Submit your own word</a>
 
 <strong>
 	
